@@ -1,0 +1,82 @@
+<!--Author: Danial Shahali-->
+<html>
+  <head>
+    <!-- This section is the title of the main webpage on the top left of the screen-->
+    <title>Technical Blog</title>
+    <!-- To scale the page fit any device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- This section change the style of the webpage and refers to the css file in styles folder-->
+    <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+
+    <!-- This section change the fonts and refers to google font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <center>
+      <h1>What does it mean to display inline vs inline blocks?</h1>
+    </center>
+    <hr />
+
+    <p class="p-style">
+      In simple English, imagine that we are in an sport event in a stadium with
+      rows of seats. All spectators with an inline seated , will sit next to
+      eachother. so we all have the same seat, we cannot make those sits larger
+      or smaller! They have one size. This is
+      <span style="color: rgb(149, 0, 255)">inline</span>
+    </p>
+    <p class="p-style">
+      Some people may know each other, and they are in VIP seats. These are
+      customized and can be adjusted to be larger or smaller. These seats might
+      be at the same row with fixed seats but with extras. This is
+      <span style="color: rgb(149, 0, 255)">inline-block</span>
+    </p>
+    <p class="p-style">
+      Some seats are special seats, and they have their unique rows, like seats
+      for disable people, they are standard seats but they have their own
+      specific area and blocked from the crowd. This is
+      <span style="color: rgb(149, 0, 255)">block</span>
+    </p>
+
+    <h3>Inline Elements</h3>
+    <p class="p-style">
+      The inline element can have right and left paddings and margins, but they
+      cannot have top and bottom padding and margin. We cannot set width and
+      height but other elements can be placed on its sides. Thers is no line
+      break before or after but it can tolerates html elements next to it. As
+      you can see in the image below, the both paragraph
+    </p>
+    <img class="image" src="../images/inline.png" alt="inline display" />
+
+    <h3>Inline-Block Elements</h3>
+    <p class="p-style">
+      The inline-block element is similar to an inline element, but it behaves
+      as a block element. That is it allows other elements to sit to the left
+      and right of it, and accpet the the top and buttom paddings and margins.
+      We can also, set height and width to an inline-block.
+    </p>
+    <img
+      class="image"
+      src="../images/inline-block.png"
+      alt="inline-block display"
+    />
+
+    <h3>Block Elements</h3>
+    <p class="p-style">
+      The block element has some whitespace above and below it and does not
+      tolerate any HTML elements next to it. It forces a line break after the
+      block element acquires full-width if width not defined.
+    </p>
+    <img class="image" src="../images/block.png" alt="block display" />
+
+    <hr />
+    <center>
+      <a href="../index.html"
+        ><button class="btn">Back to the main page</button></a
+      >
+    </center>
+  </body>
+</html>
