@@ -21,9 +21,15 @@
     </center>
     <hr />
     <!-- This creates a section with a row and two columns-->
-    <div class="row">
-        <!-- this is the 1st column -->
-        <div class="column">
+    <div>
+        <div>
+            <!-- The section populates the photo from the source-->
+            <center>
+                <img class="image" src="./images/danial.png" alt="My Photo" /></center>
+            </a>
+            </center>
+        </div>
+        <div>
             <!-- This section provide the dscriptions of the place-->
             <p class="p-style">
                 My name is Danial, I moved to
@@ -35,22 +41,50 @@
             </p>
         </div>
         <!-- This is the 2nd column-->
-        <div class="column">
-            <!-- The section populates the photo from the source-->
-            <center>
-                <img class="image" src="./images/danial.png" alt="My Photo" /></center>
-            </a>
-            </center>
-        </div>
     </div>
     <hr />
 
     <!-- This section add the hyperlinks to other pages-->
     <ul class="nav">
-        <li class="btn"><a href="./blog/te-houtaewa-template.html">The Story of Te Houtaewa</a></li>
-        <li class="btn"><a href="./blog/html-css.html">Technical Blog</a></li>
-        <li class="btn"><a href="./blog/core-blog.html">Core Blog</a></li>
-        <li class="btn"><a href="mailto:danial.shahali@outlook.com">Contact</a></li>
+        <li class="btn">
+            <a href="./blog/te-houtaewa-template.html">
+                <p class="p-style">Story of Te Houtaewa</p>
+            </a>
+        </li>
+        <li>
+            <div class="dropdown">
+                <button class="p-style dropbtn">Technical</button>
+                <div class="btn dropdown-content">
+                    <a href="./blog/html-css.html">
+                        <p class="p-style small-font">Inline vs Inline Block</p>
+                    </a>
+                    <a href="./blog/javascript-dom.html">
+                        <p class="p-style small-font">JavaScript and DOM</p>
+                    </a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="dropdown">
+                <button class="p-style dropbtn">Core</button>
+                <div class="btn dropdown-content">
+                    <a href="./blog/emotional-intelligence.html">
+                        <p class="p-style small-font">Emotional Intelligence</p>
+                    </a>
+                    <a href="./blog/learning-plan.html">
+                        <p class="p-style small-font">Learning Plan</p>
+                    </a>
+                    <a href="./blog/identity-values.html">
+                        <p class="p-style small-font">Identity Vlaues</p>
+                    </a>
+                </div>
+            </div>
+        </li>
+        <li class="btn">
+            <a href="mailto:danial.shahali@outlook.com">
+                <p class="p-style">Contact</p>
+            </a>
+        </li>
     </ul>
     <br />
     <hr />
